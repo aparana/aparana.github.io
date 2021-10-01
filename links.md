@@ -1,3 +1,4 @@
+<!---
 ---
 layout: page
 title: Links
@@ -255,3 +256,5 @@ I once ran an experimental PM course called Aristos: [Aristos - PM Coaching](htt
 ## (Books I recommend)
 
 **[Exhaustive list on GoodReads](https://www.goodreads.com/user/show/9698257-manas-saloi)**
+
+--->
