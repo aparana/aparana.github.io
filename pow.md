@@ -1,3 +1,4 @@
+<!---
 ---
 layout: page
 title: POW
@@ -84,3 +85,5 @@ permalink: /proofofwork/
   - Created the Push notification system for Kore, which handles all notifications going to users.
 - Kore spun out from Kony Labs where it was incubated. Kony is the leading multi-channel application development platform provider with over 350 customers in 45 countries.
   - As a member of the Vertical Apps Team, I built mobile applications on Kony's proprietary platform Kony Studio using JavaScript.
+
+--->
