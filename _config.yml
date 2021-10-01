@@ -13,22 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Manas J. Saloi
-# email: your-email@example.com
-description: I create useful things and share my learnings.
+title: Aparana Gupta
+# email: aparana.mathura@gmail.com
+description: I like to read and share my learnings.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: manas_saloi
-github_username:  manassaloi
+twitter_username: GuptaAparana
+github_username:  aparana
 
 defaults:
   - scope:
       path: ""
     values:
-      image: https://manassaloi.com/assets/img/manas.png
+#   image: https://manassaloi.com/assets/img/manas.png
 
 twitter:
-  username: manas_saloi
+  username: GuptaAparana
   card: summary_large_image
 
 # Build settings
