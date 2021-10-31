@@ -2,13 +2,13 @@ Hi there 👋🏽
 
 If you’re on Twitter, you would have come across this -
 
-![image](https://user-images.githubusercontent.com/10815402/139591681-9412fd44-3975-44e1-9352-89057ddf1342.png)
+![image](https://user-images.githubusercontent.com/10815402/139591681-9412fd44-3975-44e1-9352-89057ddf1342.png)\
 [Source](https://www.christies.com/presscenter/pdf/9971/Joint%20Press%20Release%20-%20Metapurse%20__%20Christies%20(2)_9971_1.pdf)
 
 Or this -
 > The Twitter CEO shared a link Friday afternoon to a platform called “Valuables,” where his March 21, 2006 tweet “just setting up my twttr” was up for bidding. The highest offer is from Sina Estavi, CEO of Bridge Oracle, for $2.5 million as of Saturday afternoon, according to the website.
 > 
-![image](https://user-images.githubusercontent.com/10815402/139591699-c209f0b3-136d-4215-aed0-67aa5648e982.png)
+![image](https://user-images.githubusercontent.com/10815402/139591699-c209f0b3-136d-4215-aed0-67aa5648e982.png)\
 [Source](https://v.cent.co/tweet/20)
 
 So what is it? Grab a cup of your favorite beverage and let’s get reading!
