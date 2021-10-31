@@ -1,8 +1,0 @@
----
-layout: post
-title: "On tools"
-
----
-Upgrading tools is more about downside protection than upside maximization. Moving to Jira from Google sheets might help a good team track bugs better, but it won't help a dysfunctional team improve its shipping velocity from 2 months to 2 weeks.
-
-Focus on processes, not tools.
