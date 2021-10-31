@@ -1,0 +1,71 @@
+![image](https://user-images.githubusercontent.com/10815402/139592396-79c922e3-70c2-4054-aeb1-df3fcc07aec0.png)
+[Source](https://imgs.xkcd.com/comics/git.png)
+
+Hi there 👋🏽
+
+This was me, never much interested in learning what Git actually IS! However, once you understand the concepts, you will realize that the path suggested by the comic above is exactly what versioning(Git) is trying to prevent.
+
+---
+
+## What is GIT?
+“It’s a version control system.” - Simply put, Git tracks changes to source code!
+
+Let us try to understand why a version control might be necessary -
+
+## Tracking a project’s history
+As the team grows, so do the contributors and the projects. With a large number of people making continuous changes to the source code, it becomes difficult to track the changes - Who changed, what did they change, when did they change?
+
+Version control lets you keep a track of all these parameters - by storing a snapshot of all your changes/versions - these versions are referred as commits in Git’s terminology.
+
+At any time, you can see the log of all your previous commits and compare them as well using diff.
+
+Can we revert it if things break? Yes, you can consider it to be your time travel machine - at any point in time, you can checkout (move) to your previous snapshot or version and come back later if needed!
+
+## Coordinating teamwork
+Git provides you a shared project, also called a repository - this can be accessed by all the members of the team!
+
+(As well as the tools - Consider that you have an automated deployment setup, then what should be the common source code that this setup should use?)
+
+## Managing multiple versions
+Let us say you have developed an app for your customers, which has a free and premium version. Without Git or version control, you would have to maintain two separate folders and copy-paste the bug fixes from one to another.
+
+With Git, you can checkout (create) a new branch from your main project and add new premium features (commits) to it!
+![image](https://user-images.githubusercontent.com/10815402/139592422-cfb02769-501a-4d56-a568-c158fbc2989f.png)
+But let us say you add some bug fixes to your master/free branch which would be required for the premium branch as well - In this case, you can merge the premium version with the master branch, as shown below. This adds all the additional changes from the master branch to the premium branch. Note that the master (Free) branch still does not have any premium features (refer to the arrows).
+
+![image](https://user-images.githubusercontent.com/10815402/139592432-1b289410-f71c-4e17-8435-acd54c669d0d.png)
+
+Now what happens when the bug fix changes the same line of code that was already changed on the premium branch - This results in conflicts and need to be resolved by the developer, more on this later!
+
+To play around and visualize, use http://git-school.github.io/visualizing-git/
+
+## The Three Stages of a File
+Each file in our project could either be tracked by a git or not. Remember, the tracked files are the ones that were present in the previous snapshot. To tell git to track a new file, you need to add the file.
+
+The already tracked files can be in three different stages -
+
+* Committed - Any changes that are unmodified from the last snapshot
+* Modified - Changes made since the last snapshot
+* Staged - Changes to be added in the next snapshot
+
+Whenever we make a change to any tracked file, it moves from the committed stage to the modified stage. When we are satisfied with these changes, we add them which move it to the staging area. Once you are satisfied with the files in the staged area, you can commit these changes with a suitable message to create a new snapshot. This moves the files back to the committed stage, thus completing the cycle.
+
+At any point in time, you can check the status to identify the files present in these areas. (Sometimes, untracked is also considered as a stage.)
+
+## The three stages in Git
+Git follows these three stages -
+
+* Working directory - This is the project version on your local end. All the changes you make will remain here until you add them to the staging area
+* Staging Area (Index) - Consider this as the preview of your commit
+* .git directory (Local Repository) - After the commit, your changes go and sit here
+
+At any point, if you want to park away some of your changes from the working tree, you can stash them and pop when needed.
+
+Now let us say we want to share our project with other colleagues, then we need to push our local repository to remote so that other colleagues can clone (copy) the project for the initial setup and then take a pull anytime to get the latest changes.
+
+The last concept that we will cover is the reset - depending on the parameters it moves your changes from one Git stage to another.
+
+![image](https://user-images.githubusercontent.com/10815402/139592437-998b0bf4-474c-4081-904a-7d366256ab69.png)
+
+That’s it for today!
+
