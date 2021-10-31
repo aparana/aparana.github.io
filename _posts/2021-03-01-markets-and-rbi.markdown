@@ -56,9 +56,7 @@ Recently, RBI has allowed retail investors to directly buy/sell bonds, thus lead
 
 4. Increasing the [HTM] limit of bonds for banks
 
-5. Floating-rate bonds
-
-Floating rate bonds are bonds where the coupon rate (consider interest for now) every six months. This also means that the risk decreases, so yields decrease (when the lender has less risk, less interest would be charged). This also comes with a downside when the lender/issuer/government would have to pay higher coupons in case of higher yields.
+5. Floating-rate bonds: Floating rate bonds are bonds where the coupon rate (consider interest for now) every six months. This also means that the risk decreases, so yields decrease (when the lender has less risk, less interest would be charged). This also comes with a downside when the lender/issuer/government would have to pay higher coupons in case of higher yields.
 
 6. [Few other ways](https://www.cnbctv18.com/finance/explained-recent-surge-in-g-sec-yields-and-how-rbi-can-cap-such-rise-8384501.htm)
 
