@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Farewell CouponDunia..."
+title:  "Regression basics"
 
 ---
 
