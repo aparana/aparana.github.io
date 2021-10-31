@@ -4,7 +4,7 @@ This post is basically a summary of my recent learnings from the lecture “Numb
 
 The article uses DCF coupled with a narrative to basically value anything.
 
-Discounted cash flow (DCF) is a valuation method used to estimate the value of an investment based on its expected future cash flows. DCF analysis attempts to figure out the value of an investment today, based on projections of how much money it will generate in the future.2
+> Discounted cash flow (DCF) is a valuation method used to estimate the value of an investment based on its expected future cash flows. DCF analysis attempts to figure out the value of an investment today, based on projections of how much money it will generate in the future.2
 
 So if you are familiar with DCF already, this will help you to add a narrative to your valuation!
 
@@ -20,7 +20,7 @@ For this post, we will refer to the example of Ferrari (from Aswath’s examples
 ## Step 2: Develop a narrative
 This narrative will help you assume growth rate, operating margin, etc. for the future years. It is basically a story about the future of the company, for example -
 
-Ferrari will stay an exclusive auto club, deriving its allure from its scarcity and the fact that only a few own Ferraris. By staying exclusive, the company gets three benefits: 1. It can continue to charge nose bleed prices for its cars and sell them with little or no advertising. 2. It does not need to invest in new assembly plants, since it does not plan to ramp up production. 3. It sells only to the super rich, who are unaffected by overall economic conditions or market crises3
+> Ferrari will stay an exclusive auto club, deriving its allure from its scarcity and the fact that only a few own Ferraris. By staying exclusive, the company gets three benefits: 1. It can continue to charge nose bleed prices for its cars and sell them with little or no advertising. 2. It does not need to invest in new assembly plants, since it does not plan to ramp up production. 3. It sells only to the super rich, who are unaffected by overall economic conditions or market crises3
 
 ## Step 3: Check the narrative
 Check the narrative against history, economic first principles & common sense.
