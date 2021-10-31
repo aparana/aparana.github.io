@@ -20,22 +20,13 @@ Summary -
 
 5. Products -
 
-- Tata Salt (17% revenue share)
-* Tata might be the largest producer
-* The salt industry is growing at 5% however the Tata Salt Volumes is growing by 6.5-7% because of market share increase (currently at 30%)
-* High entry barrier - Voluminous product, less value to weight - so for retailers they would prefer the one with the high brand value
+- Tata Salt (17% revenue share): Tata might be the largest producer. The salt industry is growing at 5% however the Tata Salt Volumes is growing by 6.5-7% because of market share increase (currently at 30%). High entry barrier - Voluminous product, less value to weight - so for retailers they would prefer the one with the high brand value
 
-- Tea
-* Current market Share - 20% (as compared to HUL - 23%)
-* The distribution network for Tata Tea is expanding - high growth rate expected
-* Prices are highly volatile
+- Tea: Current market Share - 20% (as compared to HUL - 23%).The distribution network for Tata Tea is expanding - high growth rate expected. Prices are highly volatile
 
-- Tata Sampann (Pulses, Spices, RTC, etc)
-* 1% is branded market and the rest 99% is unbranded for pulses as compared to 30% branded for spices.
+- Tata Sampann (Pulses, Spices, RTC, etc): 1% is branded market and the rest 99% is unbranded for pulses as compared to 30% branded for spices.
 
-- International Business (38% revenue share)
-*Tea consumption has been decreasing on an international level
-* Mature market - not a growth area - 5% growth rate
+- International Business (38% revenue share): Tea consumption has been decreasing on an international level. Mature market - not a growth area - 5% growth rate
 
 6. Earnings growth -
 - Sunil D’ Souza has joined the management team (Ex-Whirlpool, Ex-Pepsi)
