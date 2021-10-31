@@ -29,13 +29,13 @@ You might have seen that when you open a number of tabs on your Google Chrome, y
 
 That’s why users prefer higher RAM! (RAM is measured in GBs)
 
-Hard disk - As mentioned above, this is long-term storage.
+**Hard disk** - As mentioned above, this is long-term storage.
 
 When we talk about “drives” labeled C:, D:, etc., we’re actually talking about partitions, sections of the disk. We must have at least one container (partition) with a file system before we can write any data.
 
-ROM (Read-only memory) - ROM contains the BIOS which checks for the appropriate hardware and then launches the bootloader. The bootloader is responsible for launching the OS.
+**ROM (Read-only memory)** - ROM contains the BIOS which checks for the appropriate hardware and then launches the bootloader. The bootloader is responsible for launching the OS.
 
-Operating system - Consider it to be your laptop’s manager. Let us say that a program needs to perform some operation and needs to access CPU, memory, etc. - All this is handled by your OS.
+**Operating system** - Consider it to be your laptop’s manager. Let us say that a program needs to perform some operation and needs to access CPU, memory, etc. - All this is handled by your OS.
 
 Some of the tasks performed by OS:
 
