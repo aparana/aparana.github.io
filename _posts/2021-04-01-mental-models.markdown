@@ -56,7 +56,7 @@ Do not assume the worst intention in the actions of others.
 > It is common for people to damage relationships by believing other people are intentionally trying to cause problems for them, or behaving in a way intended to be annoying. In most cases, these situations are the result of inability or accidental mistakes.
 
 ---
-
+<br/>
 While writing this, I came across a bunch of others, which did not seem so helpful or maybe I did not understand them. Adding them here with Wikipedia link and a short summary in case you’re interested to explore more -
 
 1. The Map is not the Territory - The map is not the reality; what applied/worked under certain situations might not work under others.
