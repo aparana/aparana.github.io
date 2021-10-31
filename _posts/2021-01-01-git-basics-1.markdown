@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/10815402/139592396-79c922e3-70c2-4054-aeb1-df3fcc07aec0.png)
+![image](https://user-images.githubusercontent.com/10815402/139592396-79c922e3-70c2-4054-aeb1-df3fcc07aec0.png)\
 [Source](https://imgs.xkcd.com/comics/git.png)
 
 Hi there 👋🏽
