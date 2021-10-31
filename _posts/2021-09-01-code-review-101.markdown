@@ -10,8 +10,8 @@ According to Bloomberg, Uber's 2016 breach occurred when hackers discovered that
 
 #### 2. The .git directory
 When you generate a Git repository (repo) using the git init command, a hidden directory with the name '.git' is created in the Git folder. Similarly, when you clone a repo, you’ll see that a '.git' directory is also cloned in the repo folder. The .git directory should not be changed if you're not familiar with Git. It’s a sensitive directory that has all the necessary information and files for Git to work, such as the commit history and previous and current versions of the files and thus it’s easy to recreate the source code if this has been exposed.
-##### Simply put, the .git folder should never be deployed, and if it is, it should never be open to public access.
-To check if this is an issue for your application, the quickest way is to try accessing the .git folder by navigating to it via the browser (www.example.com/.git/).
+#### Simply put, the .git folder should never be deployed, and if it is, it should never be open to public access.
+To check if this is an issue for your application, the quickest way is to try accessing the .git folder by navigating to it via the [browser](www.example.com/.git/)
 
 #### 3. Secure authentication
 One important thing is to re-authenticate before sensitive operations or use some other alternative for it. Before transferring monies, or performing sensitive actions, asking users for their credentials helps prevent Cross-Site request forgery (CSRF) and session hijacking attacks. An attacker might perform these sensitive tasks without ever having provided the user’s credentials. (More on this below)
@@ -35,7 +35,9 @@ Always validate user data with full knowledge of what your application is trying
 ![image](https://user-images.githubusercontent.com/10815402/139590512-860ae41b-c767-447d-bc36-cd795cd324ef.png)
 [Source](https://xkcd.com/327/)
 
+
 ---
+
 
 ## Some common attacks
 ### Cross-site Scripting (XSS) attack
@@ -54,12 +56,16 @@ It is vulnerable to XSS because an attacker could submit a comment that contains
 ```
 The web server provides the following HTML code to users that visit this web page:
 ```
-<html> <h1>Most recent comment</h1> <script>doSomethingEvil();</script> </html>
+<html> 
+<h1>Most recent comment</h1> 
+<script>doSomethingEvil();
+</script>
+</html>
 ```
 When the page loads in the victim’s browser, the attacker’s malicious script executes. 
 
 #### How to Prevent XSS
-One must sanitize the input! Your application code should never output data received as input directly to the browser without checking it for malicious code.3
+One must sanitize the input! Your application code should never output data received as input directly to the browser without checking it for malicious code.
 
 ### Cross-Site Request Forgery (CSRF)
 It is recommended to use application-Json content type but it may now be efficient always, for example, if we want the user to upload a binary file multipart/form-data requests might be simple again, and we will have to allow this content type on the backend (do it for only certain APIs, not all!)
@@ -80,9 +86,9 @@ When user presses Send USD button, the browser will make an HTTP POST request wi
 Now some hacker creates a site https://kittie-images.example/ and places the next form with hidden inputs on the home page:
 ```
 <form action='https://example.com/send_usd/' method='POST'>     
-  <input hidden name='card_address' type='text' value='HACKERS CARD'/>    
-  <input hidden  name='amount' type='number' value='1000'/>      
-  <button>Show me the most awesome kittie</button> 
+<input hidden name='card_address' type='text' value='HACKERS CARD'/>    
+<input hidden  name='amount' type='number' value='1000'/>      
+<button>Show me the most awesome kittie</button> 
 </form>﻿ 
 ```
 
@@ -91,7 +97,12 @@ Now some hacker creates a site https://kittie-images.example/ and places the nex
 One way is to change the content type to application/json. This can only be sent from XHR, and it will be protected by SOP and CORS5. It might not be the best way in all cases, for example - while uploading a binary file since it has a limited character set we will have to use base64 encoding which will increase traffic and upload time
 To implement CSRF you need to generate some unique big word when user logins to a website and set it to cookie along with session cookie. Then on each request include the same word in input when you render the form on the backend -
 ```
-<form action='/send_usd/' method='POST'>       <input hidden name='csrftoken' type='our-long-long-random-word-generated-at-login'/>       <input name='card_address' type='text'/>       <input name='amount' type='number'/>       <button>Send USD</button>  </form>﻿ 
+<form action='/send_usd/' method='POST'>
+<input hidden name='csrftoken' type='our-long-long-random-word-generated-at-login'/>
+<input name='card_address' type='text'/>
+<input name='amount' type='number'/>
+<button>Send USD</button>
+</form>﻿ 
 ```
 Then on each call just compare two tokens. If they are the same – you might be calm that the request comes from your domain.
 
