@@ -37,7 +37,8 @@ Most of you will be familiar with the Pareto Principle or the 80/20 Rule. The pr
 > You can see here that, generally, 80% of the results can be achieved with 20% of the effort… this is not groundbreaking. The takeaway here is hidden in the curve. If you move further down the curve you will find that 50% of the results can be achieved with less than 10% of the effort.
 
 The Pareto Principle - How The 80-20 Rule Affects Your Life
-https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9017d60-1596-452c-9cac-862d18142351_371x384.png
+![image](https://user-images.githubusercontent.com/10815402/139592099-0c86f2f1-bff6-4bf9-b45d-f49df5141a68.png)
+
 [Source](https://www.time-management-success.com/pareto-principle.html)
 
 ## How and when can it succeed?
