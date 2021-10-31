@@ -26,7 +26,7 @@ It’s easy to set up - takes less than AN HOUR!
 
 You do not need to have SQL/Query expertise to get answers to your questions! It gives you a quick scan of each table and then lets you select, filter, aggregate, join and visualize using a simple UI.
 
-Link - https://www.metabase.com/
+[Link](https://www.metabase.com/)
 
 (Do share if you want to recommend anything else)
 
@@ -63,6 +63,6 @@ Metabase dashboard
 
 ![image](https://user-images.githubusercontent.com/10815402/139590025-80b0abe8-add9-43a9-90b9-29801e69f42d.png)
 
-Source - https://aws.amazon.com/blogs/startups/analytics-is-simpler-than-you-think-with-metabase/
+[Source](https://aws.amazon.com/blogs/startups/analytics-is-simpler-than-you-think-with-metabase/)
 
 That’s it for this post. Ping me if you want any help setting it up, have any questions, or anything related!
