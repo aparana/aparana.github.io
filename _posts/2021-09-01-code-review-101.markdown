@@ -1,0 +1,125 @@
+Hi there 👋🏽
+
+Often while working on projects, we forget about the vulnerabilities in our application. This post is about a few must-to-check pointers which one should know!
+
+## What to look for
+
+#### 1. Hardcoded secrets and credentials:
+Do a grep for API keys, AWS keys, database passwords, etc.
+According to Bloomberg, Uber's 2016 breach occurred when hackers discovered that the company's developers had published code that included their usernames and passwords on a private account of the software repository Github. In 2016, Uber paid a $100,000 ransom to its hackers to to hide a 57-Million User Data Breach and delete the data they'd stolen.1
+
+#### 2. The .git directory
+When you generate a Git repository (repo) using the git init command, a hidden directory with the name '.git' is created in the Git folder. Similarly, when you clone a repo, you’ll see that a '.git' directory is also cloned in the repo folder. The .git directory should not be changed if you're not familiar with Git. It’s a sensitive directory that has all the necessary information and files for Git to work, such as the commit history and previous and current versions of the files and thus it’s easy to recreate the source code if this has been exposed.
+##### Simply put, the .git folder should never be deployed, and if it is, it should never be open to public access.
+To check if this is an issue for your application, the quickest way is to try accessing the .git folder by navigating to it via the browser (www.example.com/.git/).
+
+#### 3. Secure authentication
+One important thing is to re-authenticate before sensitive operations or use some other alternative for it. Before transferring monies, or performing sensitive actions, asking users for their credentials helps prevent Cross-Site request forgery (CSRF) and session hijacking attacks. An attacker might perform these sensitive tasks without ever having provided the user’s credentials. (More on this below)
+Authorization after authentication
+By authorization, we mean if the user is actually allowed to perform the step and has permission to do so.
+
+```
+def deleteInvoice():
+  user = users.get_user()
+  if not user["authenticated"]:
+    return redirect("/login")
+  if not user.hasPermission():
+    return redirect('/forbidden')
+  invoice_id = request.args.get("invoice_id")
+  …
+```
+
+#### 4. Validations
+Always validate user data with full knowledge of what your application is trying to accomplish.
+
+![image](https://user-images.githubusercontent.com/10815402/139590512-860ae41b-c767-447d-bc36-cd795cd324ef.png)
+[Source](https://xkcd.com/327/)
+
+---
+
+## Some common attacks
+### Cross-site Scripting (XSS) attack
+Cross-Site Scripting attacks (also known as XSS attacks) target scripts embedded in a page that is executed on the client-side (in the user’s web browser) rather than on the server-side. The manipulative code is embedded in the script on the page and is executed every time the page is loaded. Let us understand it with the help of an example2 -
+
+```
+print "<html>"
+print "<h1>Most recent comment</h1>"
+print database.latestComment
+print "</html>"
+```
+It is vulnerable to XSS because an attacker could submit a comment that contains a malicious payload, for example:
+
+```
+<script>doSomethingEvil();</script>
+```
+The web server provides the following HTML code to users that visit this web page:
+```
+<html> <h1>Most recent comment</h1> <script>doSomethingEvil();</script> </html>
+```
+When the page loads in the victim’s browser, the attacker’s malicious script executes. 
+
+#### How to Prevent XSS
+One must sanitize the input! Your application code should never output data received as input directly to the browser without checking it for malicious code.3
+
+### Cross-Site Request Forgery (CSRF)
+It is recommended to use application-Json content type but it may now be efficient always, for example, if we want the user to upload a binary file multipart/form-data requests might be simple again, and we will have to allow this content type on the backend (do it for only certain APIs, not all!)
+Now we have a problem - a hacker can place a form with hidden inputs on their own site and when the user clicks on a button, if he is authorized on your website he will send a file if he authorized. To protect from it use CSRF!
+
+Let us take an example to understand this4 -
+Assume your site https://example.com has a form on some page which sends USD from user balance to defined credit card number:
+
+```
+<form action='/send_usd/' method='POST'>    
+  <input name='card_address' type='text'/>    
+  <input name='amount' type='number'/>    
+  <button>Send USD</button> 
+</form>﻿
+```
+When user presses Send USD button, the browser will make an HTTP POST request with a Content-Type=application/x-www-form-urlencoded header to URL https://example.com/send_usd/ and attach Session or JWT cookie (We assume that the site uses Cookies to authorize requests and it’s valid for 7 days).
+
+Now some hacker creates a site https://kittie-images.example/ and places the next form with hidden inputs on the home page:
+```
+<form action='https://example.com/send_usd/' method='POST'>     
+  <input hidden name='card_address' type='text' value='HACKERS CARD'/>    
+  <input hidden  name='amount' type='number' value='1000'/>      
+  <button>Show me the most awesome kittie</button> 
+</form>﻿ 
+```
+
+#### How to prevent this?
+
+One way is to change the content type to application/json. This can only be sent from XHR, and it will be protected by SOP and CORS5. It might not be the best way in all cases, for example - while uploading a binary file since it has a limited character set we will have to use base64 encoding which will increase traffic and upload time
+To implement CSRF you need to generate some unique big word when user logins to a website and set it to cookie along with session cookie. Then on each request include the same word in input when you render the form on the backend -
+```
+<form action='/send_usd/' method='POST'>       <input hidden name='csrftoken' type='our-long-long-random-word-generated-at-login'/>       <input name='card_address' type='text'/>       <input name='amount' type='number'/>       <button>Send USD</button>  </form>﻿ 
+```
+Then on each call just compare two tokens. If they are the same – you might be calm that the request comes from your domain.
+
+### SQL injection
+Here is an example of an unsafe approach in PHP6
+```
+$query = "SELECT * FROM users WHERE user = '$username' and password = '$password'";
+$result = mysql_query($query);
+```
+Here the user-provided data is embedded directly in the SQL query. If the user inserts admin and a' or '1'='1, she will be able to login to the admin account without knowing the password because the SQL statement has been altered.
+
+Here is an example of a prepared statement approach in PHP:
+```
+$stmt = $mysqli->prepare("SELECT * FROM users WHERE user = ? AND password = ?");
+$stmt->bind_param("ss", $username, $password);
+$stmt->execute();
+```
+The user-supplied data is not directly embedded in the SQL query in this example. Instead of the user’s data, there is a ? symbol. That is a placeholder and temporarily takes the place of the data. The SQL query is pre-compiled with placeholders, and the user’s data is added later. If the user inserts admin and a' or '1'='1, the initial SQL query logic won’t be changed. Instead, the database will look for a user admin whose password is literally a' or '1'='1.
+
+---
+
+### Ways to do code review
+1. Use Grep
+2. Look at recent commits/changes
+3. Important functions first
+Focus on important functions such as authentication, password reset, sensitive info reads, etc. (What is the most important would depend on the application)
+4. Tests Driven Development
+5. Follow user input
+User input such as HTTP request parameters, HTTP headers, HTTP request paths, database entries, file reads, and file uploads provide the entry points for attackers to exploit the application’s vulnerabilities. This can help find common vulnerabilities such as stored-XSS, SQL injections, etc.
+
+That’s it for today!
