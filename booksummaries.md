@@ -1,4 +1,3 @@
-
 ---
 layout: booksummaries
 title: Summaries
