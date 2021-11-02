@@ -8,8 +8,6 @@ I searched web to understand the concepts of regression such as autocorrelation,
 
 **/start**
 
-This is the first in the series. 
-
-Basics of regression
+This is the first in the series - draft.
 
 **/end**
