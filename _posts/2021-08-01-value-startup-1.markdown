@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "How to value a startup: Part-1
+
+---
+
+
 Hi there 👋🏽
 
 As I was reading about different ways to value a startup, I thought why not write about the same!
@@ -50,7 +57,7 @@ In this case, we should note that there is no appreciation in value for the firs
 ## How growth rate pictures in?
 Let us say that company A grows at 50% for the first two years while company B grows at 100% for the first two years. Both companies have $20M revenue in the current year and will trade at ~10x revenue upon exit.
 
-In this case, company A would be worth $450M (10*45) and company B would be worth $800M (10*80) at the exit. Thus considering a 30% IRR, company A should be valued at ~13x ($260M) and company B should be valued at ~24x ($480M).
+In this case, company A would be worth $450M (10 * 45) and company B would be worth $800M (10 * 80) at the exit. Thus considering a 30% IRR, company A should be valued at ~13x ($260M) and company B should be valued at ~24x ($480M).
 
 ## How do margins picture in?
 Eventually, the growth rate slows down and hence EBITDA comes in. Let us take the case of two companies again. Both companies have $20M revenue in the current year and will grow at the same rate (100% for the first two years) and trade at ~25x EBITDA upon exit.
