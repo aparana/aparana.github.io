@@ -10,6 +10,6 @@ I spend my time [reading](https://www.goodreads.com/user/show/37635918-aparana-g
 
 Find the link to my blog [here](https://aparanagupta.com/posts/).
 
-Summaries of the books I have enjoyed reading can be found [here](https://aparanagupta.com/booksummaries/).
+Summaries of the books I have enjoyed reading can be found [here](https://aparanagupta.com/booksummaries/). (Under construction) 
  
 Thanks for checking out my website. Have a great day 🤗
