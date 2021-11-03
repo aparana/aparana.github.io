@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "What's inside my laptop?"
+
+---
+
 Hi there 👋🏽
 
 This is a quick post about some terminologies which I learned recently -
