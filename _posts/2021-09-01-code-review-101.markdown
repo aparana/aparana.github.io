@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Code Review 101"
+
+---
+
 Hi there 👋🏽
 
 Often while working on projects, we forget about the vulnerabilities in our application. This post is about a few must-to-check pointers which one should know!
