@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to value a startup: Part-1
+title:  "How to value a startup: Part-1"
 
 ---
 
