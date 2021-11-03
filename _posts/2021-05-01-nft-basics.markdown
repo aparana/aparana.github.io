@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "NFT: What is it?"
+
+---
+
 Hi there 👋🏽
 
 If you’re on Twitter, you would have come across this -
