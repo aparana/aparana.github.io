@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Numbers and Narratives"
+
+---
+
 Hi there 👋🏽
 
 This post is basically a summary of my recent learnings from the lecture “Numbers and Narratives” by Aswath Damodaran1.
