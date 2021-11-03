@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Markets and RBI"
+
+---
+
 Hi there 👋🏽
 
 Bond yields have been rising up recently and this motivated me to read more about it and understand how the yields influence the economy, what levers does RBI has, and many such things! If this sounds interesting to you, I am hoping that most of your questions would be answered by the end of this article!
