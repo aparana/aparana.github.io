@@ -33,25 +33,20 @@ It’s easy to set up - takes less than AN HOUR!
 ## How to make the most out of it?
 
 1. Investors/Board Members Dashboard
-
-Make use of the groups and permissions settings to set up a separate dashboard for external people, with the answer to some of the most important questions.
+<br/> Make use of the groups and permissions settings to set up a separate dashboard for external people, with the answer to some of the most important questions.
 
 2. Top 3 or 5 questions
-
-Just like too many cooks spoil the broth, looking at too many metrics might divert the attention from the most important ones. Keep a list of 3 (at max 5) questions you would like to look at each day.
+<br/> Just like too many cooks spoil the broth, looking at too many metrics might divert the attention from the most important ones. Keep a list of 3 (at max 5) questions you would like to look at each day.
 
 3. Schedule
-
-Once you have the top list of questions, set up scheduled emails or slack messages that include all of the questions on a dashboard.
+<br/> Once you have the top list of questions, set up scheduled emails or slack messages that include all of the questions on a dashboard.
 PS - You can email a dashboard subscription to any email address, so even members who don’t have Metabase accounts can receive the data (they would n to be able to click on charts to view it in Metabase though)
 
 4. Track KPIs, performance, etc.
-
-Have not used this myself but if you have an operation/support heavy team and your data tracks any action performed by a team member, this could be another use case, where the team members can track the number of cases resolved.
+<br/> Have not used this myself but if you have an operation/support heavy team and your data tracks any action performed by a team member, this could be another use case, where the team members can track the number of cases resolved.
 
 5. Groups and Permissions
-
-Use these features to let team members dig up their own patterns and set up their own metrics!
+<br/> Use these features to let team members dig up their own patterns and set up their own metrics!
 
 ## An Interesting Use Case
 Adding an interesting use case from personal experience -
