@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Mental Models"
+
+---
+
 Hi there 👋🏽
 
 I have been always curious about different mental models, and this is an attempt to read and write about some of them that seem interesting enough to give it a try!
