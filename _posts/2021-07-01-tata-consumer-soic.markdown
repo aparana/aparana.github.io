@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "SOIC: Tata Consumers Products"
+
+---
+
 Hi there 👋🏽
 
 This is a quick summary of the video I watched recently. Video Link - 
