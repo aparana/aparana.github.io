@@ -39,6 +39,10 @@ plugins:
   - jekyll-seo-tag
   # - jekyll-seo-tag
 
+
+# Google Analytics
+google_analytics: G-CK6VYDSFK6
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
