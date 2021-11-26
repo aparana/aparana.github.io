@@ -4,9 +4,10 @@
 
 layout: page
 ---
+
 👋, I am Aparana.
 
-I spend my time [reading](https://www.goodreads.com/user/show/37635918-aparana-gupta) and [writing](https://aparanagupta.com/posts/).
+I spend my time [reading](https://www.goodreads.com/user/show/37635918-aparana-gupta){:target="_blank"} and [writing](https://aparanagupta.com/posts/).
 
 Find the link to my blog [here](https://aparanagupta.com/posts/).
 
