@@ -29,7 +29,7 @@ Intelligent Compose is an account-level setting. By default, the user will autom
 > 1–3 sentences describing how someone can start using this product/feature (if it’s baked into the existing product, say this explicitly). Test your assumptions about how easy the ramp-up is for your customers to take advantage of the new product/feature.
 
 ##### Internal quote: 
-“Being a non-native speaker, the suggestions help me reduce the grammatical errors. It also helps me to cut down my time on repetitive writing. We should also launch it across Goggle workspace - some of the exciting use cases could be speaker notes in slides, comments in docs, etc.”  
+“Being a non-native speaker, the suggestions help me reduce the grammatical errors. It also helps me to cut down my time on repetitive writing. We should also launch it across the workspace - some of the exciting use cases could be speaker notes in slides, comments in docs, etc.”  
 > Someone within your company is being quoted about what they like about the product/feature. Test your assumptions about the value you are creating for your customers and how you position this product within your broader product offerings.
 
 ##### Customer Quote(s): 
@@ -43,6 +43,9 @@ Over the next few days, Xmail users would start receiving these suggestions. It 
 
 ### FAQs
 > A set of public frequently-asked questions and their answers. This should be a comprehensive list of everything that a customer might want to know about the product. It should include any reasonable question that comes up when discussing the new product/feature with customers and customer-facing teams during the development of the product/feature.
+
+##### How does Xmail uses my data
+Xmail removes all the personal and sensitive data before training the model. Your data is only used to develop a writing style, personalized and unique to you, and the suggestions based on this model are not shown to anyone else. Further, people working on this project do not have access to the raw content of the mails. 
 
 ### Internal FAQs
 > A set of private, internal frequently-asked questions and their answers in a format that can be understood by every other stakeholder. An FAQ might include wireframes of a product with a strong UX component, or a link to separate wireframe documents, but the PR should rely on text alone. This will allow all internal stakeholders to get clarity on the product/feature. 
