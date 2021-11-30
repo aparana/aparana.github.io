@@ -4,6 +4,8 @@ title:  "Product/Feature Press Release"
 
 ---
 
+This is an attemp to write an example PR doc for a new feature (a practice followed at Amazon)
+
 ##### Heading:
 Intelligent Compose (for Xmail currently) 
 > short name for the product that the target customers will understand
@@ -17,7 +19,7 @@ The Intelligent Compose feature in Xmail uses Machine Learning to offer auto-com
 > 2–4 sentences that give a summary of the product and the benefits. Should be self-contained so that a person could read only this paragraph and still understand the new product/feature.
 
 ##### Problem: 
-X number of emails are sent every day and we want to provide the best user experience. The current Intelligent Reply feature is used by y\% of Xmail users. z\% of these users don’t append anything to the suggested smart replies, whereas 100-z\% of users draft a longer mail using smart reply as the base. For these 100-z\% and 100-y\% of users, we want to improve the writing process, thus hoping to improve the user experience. On average, a Xmail user repeats a sentence/phrase m times.
+X number of emails are sent every day and we want to provide the best user experience. The current Intelligent Reply feature is used by y% of Xmail users. z% of these users don’t append anything to the suggested smart replies, whereas 100-z% of users draft a longer mail using smart reply as the base. For these 100-z% and 100-y% of users, we want to improve the writing process, thus hoping to improve the user experience. On average, a Xmail user repeats a sentence/phrase m times.
 > 2–4 sentences describing the problem that a customer faces, which this product solves. Test your assumptions about the pain points that you are addressing.
 
 ##### Solution: 
@@ -44,35 +46,34 @@ Over the next few days, Xmail users would start receiving these suggestions. It 
 ### FAQs
 > A set of public frequently-asked questions and their answers. This should be a comprehensive list of everything that a customer might want to know about the product. It should include any reasonable question that comes up when discussing the new product/feature with customers and customer-facing teams during the development of the product/feature.
 
-##### How does Xmail uses my data
+#### Q. How does Xmail uses my data
 Xmail removes all the personal and sensitive data before training the model. Your data is only used to develop a writing style, personalized and unique to you, and the suggestions based on this model are not shown to anyone else. Further, people working on this project do not have access to the raw content of the mails. 
 
 ### Internal FAQs
 > A set of private, internal frequently-asked questions and their answers in a format that can be understood by every other stakeholder. An FAQ might include wireframes of a product with a strong UX component, or a link to separate wireframe documents, but the PR should rely on text alone. This will allow all internal stakeholders to get clarity on the product/feature. 
 
-##### Wireframe/mock 
+#### Q. Wireframe/mock 
 Link here
 
-##### What are some of the challenges anticipated
+#### Q. What are some of the challenges anticipated
 - Privacy: Personal data should not appear in the suggestions for the user itself/any other user. People working on the feature should not be able to see the information as well. 
 - Personalization: Each user has a unique writing style which should be considered for
 - Latency: Since the suggestions would  be offered post each key-stroke(?), the order for results should be in milliseconds
-- Context: Depending upon the previous emails in the thread, time of the day, etc. can be used to offer more appropriate suggestions. 
 
-##### How would we measure the success of this feature (after launch)
+#### Q. How would we measure the success of this feature (after launch)
 - CTR on auto-complete
 - Words/characters not typed as % of the content of the mail (Equivalent time saved) 
-Counter-metric:
+Other relevant metric:
 - % of users turning off the Intelligent Compose feature in the settings
 
-##### Tech-questions - What model is being used 
+#### Q. Tech-questions - What model is being used 
 - Global model 
 - User-level model for personalization
 - Multi-lingual models
-- A mix of all these? 
+- A mix of all these 
 
-##### Trade-offs/Decisions taken 
+#### Q. Trade-offs/Decisions taken 
 - We only show suggestions when the output crosses the threshold/confidence score 
-
+- Context parameters: previous emails in the thread, subject and time of the day will be used to offer more appropriate suggestions. 
 
 This post is inspired by the [Coda template](https://coda.io/@productschool/product-launch-template/press-release-4)
