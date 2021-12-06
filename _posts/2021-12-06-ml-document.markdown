@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mental Models"
+title:  "ML - Document Classification"
 
 ---
 
