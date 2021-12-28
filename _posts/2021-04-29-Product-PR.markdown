@@ -1,10 +1,11 @@
 ---
 layout: post
+tags: product
 title:  "Product/Feature Press Release"
 
 ---
 
-This is an attempt to write an example PR doc for a new feature (a practice followed at Amazon)
+This is an attempt to write an example PR doc for a new feature/product launch (a practice followed at Amazon)
 
 ##### Heading:
 Intelligent Compose (for Xmail currently) 
