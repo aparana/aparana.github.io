@@ -11,7 +11,7 @@ Find the link to all my posts [here](https://aparanagupta.com/posts/).
 
 I write about startups, product, tech and finance. 
 
-Summaries of the books I have enjoyed reading can be found [here](https://aparanagupta.com/booksummaries/). (Under construction)  
+Summaries of the books I have enjoyed reading can be found [here](https://aparanagupta.com/booksummaries/).  
  
 Find more about my professional journey here: [LinkedIn](https://www.linkedin.com/in/aparana-gupta/)
 
