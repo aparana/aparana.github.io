@@ -7,10 +7,14 @@ layout: page
 
 👋, I am Aparana.
 
-I spend my time [reading](https://www.goodreads.com/user/show/37635918-aparana-gupta){:target="_blank"} and [writing](https://aparanagupta.com/posts/).
+Find the link to all my posts [here](https://aparanagupta.com/posts/).
 
-Find the link to my blog [here](https://aparanagupta.com/posts/).
+I write about startups, product, tech and finance. 
 
-Summaries of the books I have enjoyed reading can be found [here](https://aparanagupta.com/booksummaries/). (Under construction) 
+Summaries of the books I have enjoyed reading can be found [here](https://aparanagupta.com/booksummaries/). (Under construction)  
  
+Find more about my professional journey here: [LinkedIn](https://www.linkedin.com/in/aparana-gupta/)
+
+If you are building something exciting and would like to connect with me for a product-related discussion, please select a timeslot [here](https://calendly.com/aparana-gupta/30min){:target="_blank"}
+
 Thanks for checking out my website. Have a great day 🤗
