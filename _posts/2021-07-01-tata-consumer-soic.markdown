@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "SOIC: Tata Consumers Products"
+tags: finance
 
 ---
 
