@@ -1,4 +1,3 @@
-
 ---
 layout: startup
 title: Startup
