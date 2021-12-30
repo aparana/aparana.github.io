@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Code (Security) Review 101"
+tags: tech
 
 ---
 
