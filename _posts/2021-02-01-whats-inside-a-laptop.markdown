@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What's inside my laptop?"
+tags: tech
 
 ---
 
