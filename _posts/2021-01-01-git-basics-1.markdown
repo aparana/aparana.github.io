@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Git: The Big Picture (Part-1)"
+tags: tech
 
 ---
 
