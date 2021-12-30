@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Startup 101: Data-Driven Culture ft. Metabase"
+tags: startup
 
 ---
 
