@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "NFT: What is it?"
+tags: finance
 
 ---
 
