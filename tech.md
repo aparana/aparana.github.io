@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: tech
 title: Tech
 permalink: /tech/
 ---
