@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: finance
 title: Finance
 permalink: /finance/
 ---
