@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Mental Models"
+tags: startup
 
 ---
 
