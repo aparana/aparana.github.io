@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Markets and RBI"
+tags: finance
 
 ---
 
