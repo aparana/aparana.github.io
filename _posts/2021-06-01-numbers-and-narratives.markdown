@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Numbers and Narratives"
+tags: finance
 
 ---
 
