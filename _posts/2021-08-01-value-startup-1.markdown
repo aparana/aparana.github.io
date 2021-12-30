@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to value a startup: Part-1"
+tags: startup
 
 ---
 
