@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Working Backwords Process "
+title:  "Working Backwards Process "
 tags: product
 
 ---
 
-Working Backwords Process 
+Working Backwards Process 
 From Amazon
 
 Summary: It starts with the client's requirements and works backward to launch products that meet the company's objectives.
@@ -33,3 +33,4 @@ Engage bar raisers
 - Managing bugs and tech debt - https://www.atlassian.com/agile/software-development/technical-debt
 
 
+[Book Link](https://www.amazon.in/Working-Backwards-Insights-Stories-Secrets/dp/1250267595)
