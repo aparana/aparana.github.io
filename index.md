@@ -7,14 +7,16 @@ layout: page
 
 👋, I am Aparana.
 
-Find the link to all my posts [here](https://aparanagupta.com/posts/).
+Find the link to all my posts [here](https://aparanagupta.com/posts/) or use the tags on the top. 
 
-I write about startups, product, tech and finance. 
+<!-- I write about startups, product, tech and finance. 
 
 Summaries of the books I have enjoyed reading can be found [here](https://aparanagupta.com/booksummaries/).  
- 
+  -->
+  
+If you are building something exciting and would like to connect with me for a brainstorming session, please select a timeslot [here](https://calendly.com/aparana-gupta/30min){:target="_blank"}
+
 Find more about my professional journey here: [LinkedIn](https://www.linkedin.com/in/aparana-gupta/)
-
-If you are building something exciting and would like to connect with me for a product-related discussion, please select a timeslot [here](https://calendly.com/aparana-gupta/30min){:target="_blank"}
-
+<!-- 
 Thanks for checking out my website. Have a great day 🤗
+ -->
