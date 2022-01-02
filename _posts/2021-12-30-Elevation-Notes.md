@@ -85,7 +85,7 @@ Built a suite of related tools where customers could start from one product and 
 
 
 
-To be read - 
+To read - 
 
 https://elevationcapital.com/summit/insights/investing-in-turnip
 
