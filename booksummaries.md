@@ -1,6 +1,6 @@
 ---
 layout: booksummaries
-title: Books
+title: 
 permalink: /booksummaries/
 ---
 
