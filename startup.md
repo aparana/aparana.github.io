@@ -1,5 +1,5 @@
 ---
 layout: startup
-title: Startup
+title: 
 permalink: /startup/
 ---
