@@ -1,6 +1,6 @@
 ---
 layout: prakhar
-title: Prakhar  
+title:   
 permalink: /prakhar/
 ---
 
