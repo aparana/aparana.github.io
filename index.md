@@ -22,3 +22,5 @@ Thanks for checking out my website. Have a great day 🤗
  -->
 
 Read all my posts on **#100DaysFromStartups** [here](https://aparanagupta.com/100DaysFromStartups/).
+
+!! 🤩 NEW!! I am working on an Investment Thesis for Enterprise SaaS space in India [here](https://aparanagupta.com/enterprise-saas.html).
