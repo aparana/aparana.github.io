@@ -25,4 +25,4 @@ Read all my posts on **#100DaysFromStartups** [here](https://aparanagupta.com/10
 
 <!-- <hr/> -->
 
-!! 🤩 NEW !! I am working on an Investment Thesis for Enterprise SaaS [here](https://aparanagupta.com/enterprise-saas.html).
+<!--!! 🤩 NEW !! I am working on an Investment Thesis for Enterprise SaaS [here](https://aparanagupta.com/enterprise-saas.html).-->
