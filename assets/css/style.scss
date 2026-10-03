@@ -3,3 +3,8 @@
 ---
 
 @import "minima";
+
+.site-header .site-title,
+.site-header .page-link {
+  font-size: calc(1em - 2pt);
+}

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: AI-everyday
-permalink: /AI-everyday/
+title: AI-notes
+permalink: /AI-notes/
 ---
 
-# AI-everyday
+# AI-notes
 
 Your everyday AI notes and experiments will live here.

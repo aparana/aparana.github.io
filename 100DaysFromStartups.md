@@ -1,5 +1,5 @@
 ---
 layout: 100DaysFromStartups
-title: Startups
+title: VC
 permalink: /100DaysFromStartups/
 ---

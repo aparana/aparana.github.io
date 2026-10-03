@@ -14,6 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Aparana Gupta
+header_pages:
+  - AI-notes.md
+  - AI-projects.md
+  - 100DaysFromStartups.md
+  - finance.md
+  - prakhar.md
+  - product.md
+  - tech.md
+  - blog.md
 # email: aparana.mathura@gmail.com
 description: I like to read and share my learnings.
 baseurl: "" # the subpath of your site, e.g. /blog
