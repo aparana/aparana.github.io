@@ -15,7 +15,7 @@ If you are building something exciting and would like to connect with me for a b
 -->
 Find more about my professional journey here: [LinkedIn](https://www.linkedin.com/in/aparana-gupta/)
 
-I can be contacted at agupta@mba2025.hbs.edu
+I can be contacted at [agupta@mba2025.hbs.edu](agupta@mba2025.hbs.edu)
 
 Thanks for checking out my website. Have a great day 🤗
 <!-- 
